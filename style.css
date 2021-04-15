@@ -1,0 +1,66 @@
+.debug  {
+  stroke: red;
+  stroke-width: 2px;
+  fill: white;
+  fill-opacity:0
+}
+
+#bg-top {
+  stop-color: #091e19;
+}
+#bg-bottom {
+  stop-color: #18435d;
+}
+
+.asteroid-inner, .asteroid-outer {
+  stroke-width: 1;
+  stroke: #2bf598;
+  fill: #2bf598;
+}
+
+.asteroid-inner {
+  fill-opacity: 1.0;
+}
+
+.asteroid-outer {
+  mask: url(#mask)
+}
+
+.daymarker {
+  stroke-width: 1;
+  stroke: lightgrey;
+  fill: white;
+  fill-opacity: 0;
+}
+
+.daymarker-text {
+  font: 16px sans-serif;
+  fill: lightgrey;
+}
+
+.daymarker-selected {
+  stroke-width: 1;
+  stroke: #2bf598;
+  fill: #2bf598;
+  fill-opacity: 1;
+}
+
+.daymarker-text-selected {
+  font: 16px sans-serif;
+  fill: #091e19;
+}
+
+.legend-text {
+  font: 16px sans-serif;
+  fill: lightgrey;
+}
+.legend-title {
+  font: 32px sans-serif;
+  fill: lightgrey;
+  text-decoration: underline;
+}
+
+.dailyline {
+  stroke: #091e19;
+  stroke-width: 0.7px;
+}
