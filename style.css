@@ -54,6 +54,10 @@
   font: 16px sans-serif;
   fill: lightgrey;
 }
+.legend-text-bigger {
+  font: 16px sans-serif;
+  fill: lightgrey;
+}
 .legend-title {
   font: 32px sans-serif;
   fill: lightgrey;
@@ -63,4 +67,37 @@
 .dailyline {
   stroke: #091e19;
   stroke-width: 0.7px;
+}
+
+.sepline {
+  stroke: dimgrey;
+  stroke-width: 1px;
+}
+
+.brightest-inner-mag {
+  stroke-width: 1;
+  stroke: #091e19;
+  fill: #091e19;
+  fill-opacity: 1.0;
+}
+.brightest-inner-dia {
+  stroke-width: 1;
+  /* stroke: #2659ff; */
+  /* fill: ##2659ff; */
+  stroke: #148eff;
+  fill: #148eff;
+  fill-opacity: 1.0;
+}
+
+.brightest-diameter {
+  stroke-width: 5;
+  stroke: url(#stroke);
+  fill-opacity: 0.0;
+}
+
+.brightest-magnitude {
+  stroke-width: 1;
+  stroke: #white;
+  /* fill: white; */
+  fill: url(#fill)
 }

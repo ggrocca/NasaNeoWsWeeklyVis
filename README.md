@@ -16,11 +16,10 @@ And then type `localhost:8888` in your browser.
 This is a work in progress. Missing stuff:
 - Arrows at the bottom left.
 - Tooltips over the asteroids.
-- Proper grouping of legend labels and drawings.
-- The section on the right (a view of the brightest asteroids of the week).
+- Proper grouping of legend labels and drawings in the SVG containers.
 - Finding and applying a nicer font.
 - A production build (webpack, babelization etc).
-
+- A lot of code reorganization to avoid duplicate sections, magic numbers, etc.
 
 ## Attribution
 Favicon by [Freepik](https://www.freepik.com) from [Flaticon](www.flaticon.com)
